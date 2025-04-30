@@ -5,6 +5,7 @@ import { usePathname, useRouter } from 'next/navigation';
 import { Calendar, Bus, Coffee, Map, Users, PowerCircle, BotMessageSquare } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { useIsMobile } from '@/hooks/use-mobile';
+import { useLogout } from '@/lib/auth/auth.hooks';
 
 const Header: React.FC = () => {
   const pathname = usePathname();
@@ -12,10 +13,10 @@ const Header: React.FC = () => {
   const isMobile = useIsMobile();
   const [scrolled, setScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const logoutMutation = useLogout();
 
   const handleLogout = () => {
-    localStorage.removeItem('token');
-    router.push('/login');
+    logoutMutation.mutate();
   };
 
   const navItems = [

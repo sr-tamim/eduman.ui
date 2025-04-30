@@ -62,15 +62,6 @@ export default function DashboardPage() {
             />
           </div>
         </section>
-
-        {/* Footer */}
-        <footer className="text-center">
-          <div className="opacity-0 animate-fade-up animate-delay-300">
-            <p className="text-sm text-muted-foreground">
-              © {new Date().getFullYear()} Campus Life · Made by Fetch Foundry
-            </p>
-          </div>
-        </footer>
       </PageContainer>
     </div>
   );
