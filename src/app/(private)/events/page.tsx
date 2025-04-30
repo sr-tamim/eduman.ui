@@ -446,7 +446,7 @@ export default function EventsPage() {
 
   return (
     <PageContainer>
-      <SectionTitle eyebrow="Campus Life" title="Events & Club Management" />
+      <SectionTitle eyebrow="EduMan" title="Events & Club Management" />
 
       {/* Tab navigation */}
       <div className="flex border-b border-border mb-6 opacity-0 animate-fade-up">

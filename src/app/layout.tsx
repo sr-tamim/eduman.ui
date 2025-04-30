@@ -6,7 +6,7 @@ import { Providers } from '@/components/providers';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Campus Life - University Campus Management',
+  title: 'EduMan - University Campus Management',
   description: 'A modern campus management solution for educational institutions',
 };
 

@@ -20,7 +20,7 @@ export default function HomePage() {
     <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-b from-background to-secondary/20 p-4">
       <div className="text-center max-w-3xl mx-auto">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-          Welcome to <span className="text-primary">Campus Life</span>
+          Welcome to <span className="text-primary">EduMan</span>
         </h1>
         <p className="text-xl text-muted-foreground mb-8">Your complete campus management solution</p>
         <div className="flex flex-wrap justify-center gap-4">

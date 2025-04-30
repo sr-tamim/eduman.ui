@@ -61,7 +61,7 @@ const Header: React.FC = () => {
           <div className="relative w-8 h-8 rounded-lg bg-gradient-to-br from-primary to-accent-foreground flex items-center justify-center">
             <span className="absolute text-white font-semibold">C</span>
           </div>
-          <span className="font-semibold text-lg">Campus Life</span>
+          <span className="font-semibold text-lg">EduMan</span>
         </button>
 
         {isMobile ? (
