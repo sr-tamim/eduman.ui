@@ -25,7 +25,7 @@ const Header: React.FC = () => {
     { name: 'Schedule', path: '/schedule', icon: Calendar },
     { name: 'Events', path: '/events', icon: Users },
     { name: 'Navigation', path: '/navigation', icon: Map },
-    { name: 'Chatbot', path: '/chat', icon: BotMessageSquare },
+    { name: 'Chatbot', path: '/chatbot', icon: BotMessageSquare },
     {
       name: 'Log out',
       path: '/dashboard',

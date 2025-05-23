@@ -34,7 +34,9 @@ axiosInstance.interceptors.response.use(
 export interface ApiRequestConfig extends AxiosRequestConfig {}
 
 // Define a generic type for request data
-export type RequestData = Record<string, unknown>;
+export interface RequestData {
+  [key: string]: any;
+}
 
 /**
  * API client with typed methods for making HTTP requests
