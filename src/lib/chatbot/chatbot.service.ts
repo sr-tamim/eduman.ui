@@ -16,7 +16,7 @@ export const chatbotService = {
   sendMessage: async (data: ChatMessageRequest): Promise<ChatbotApiResponse> => {
     return apiClient.post<ChatbotApiResponse>(ENDPOINTS.CHAT, data);
   },
-  
+
   /**
    * Get chat history from the server without sending a new prompt
    */
